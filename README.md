@@ -28,15 +28,12 @@ This repository provides a **Natural Language Processing (NLP) pipeline** for te
 ## ⚡ Installation
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/shusmitab/NLP-Work-Sample
+cd NLP-Work-Sample
 ```
 
 ### 2️⃣ Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-*(Ensure `nltk`, `sklearn`, `matplotlib`, `seaborn`, and `wordcloud` are installed.)*
+*Ensure `nltk`, `sklearn`, `matplotlib`, `seaborn`, and `wordcloud` are installed.*
 
 ### 3️⃣ Download NLTK Resources
 ```python
@@ -50,11 +47,6 @@ nltk.download('wordnet')
 ### ▶️ Running the Jupyter Notebook
 ```bash
 jupyter notebook notebooks/text_preprocessing.ipynb
-```
-
-### ▶️ Running the Preprocessing Script
-```bash
-python scripts/preprocess.py
 ```
 
 ## 📊 Example Outputs
